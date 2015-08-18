@@ -146,8 +146,8 @@
             http://activemq.apache.org/configuring-transports.html
         -->
         <transportConnectors>
-            <transportConnector name="openwire" uri="tcp://0.0.0.0:61616?maximumConnections=${maxConnections}&wireFormat.maxFrameSize=${maxFrameSize}" />
-            <transportConnector name="ssl" uri="ssl://0.0.0.0:61617?maximumConnections=${maxConnections}&wireFormat.maxFrameSize=${maxFrameSize}" />
+            <transportConnector name="openwire" uri="tcp://0.0.0.0:61616?maximumConnections=${maxConnections}&amp;wireFormat.maxFrameSize=${maxFrameSize}" />
+            <transportConnector name="ssl" uri="ssl://0.0.0.0:61617?maximumConnections=${maxConnections}&amp;wireFormat.maxFrameSize=${maxFrameSize}" />
 
             <transportConnector name="websocket_secure" uri="wss://0.0.0.0:61614" />
         </transportConnectors>
